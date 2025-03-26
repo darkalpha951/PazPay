@@ -34,10 +34,10 @@ export default function Home() {
             <Link href="/contact">CONTACT US</Link>
           </button>
           <button className="cursor-pointer border px-5 py-2 text-blue-600 text-sm font-semibold rounded-lg hover:bg-blue-100 transition">
-            Login
+          <Link href="/login">Login</Link>
           </button>
           <button className="cursor-pointer bg-pink-500 text-white px-6 py-2 text-sm font-semibold rounded-lg hover:bg-pink-600 transition">
-            Register
+          <Link href="/signup">Register</Link>
           </button>
         </div>
       </header>
