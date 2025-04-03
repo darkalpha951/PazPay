@@ -16,12 +16,12 @@ export default function Home() {
         <header className="flex justify-between items-center px-10 py-5 bg-white shadow-md">
             {/* Logo */}
             <h1 className="text-3xl font-extrabold">
-            <span className="text-red-500">Smart</span>
-            <span className="text-blue-600">EMI</span>
+                <span className="text-red-500">Smart</span>
+                <span className="text-blue-600">EMI</span>
             </h1>
 
             {/* Navigation */}
-            <nav className="hidden md:flex space-x-8 text-gray-600 font-medium">
+            <nav className="hidden md:flex space-x-12 text-gray-600 font-medium">
             <Link href="#" className="hover:text-blue-500 transition">
                 Home
             </Link>
@@ -31,15 +31,15 @@ export default function Home() {
             <Link href="#faq" className="hover:text-blue-500 transition">
                 FAQs
             </Link>
-            <Link href="#help" className="hover:text-blue-500 transition">
-                Help
+            <Link href="/contact" className="hover:text-blue-500 transition">
+                Contact Us
             </Link>
             </nav>
 
             {/* Buttons */}
             <div className="space-x-4 flex items-center">
             <button className="cursor-pointer border border-black px-5 py-2 text-sm text-black rounded-lg hover:bg-gray-100 transition">
-                <Link href="/contact">CONTACT US</Link>
+                <Link href="/dashboard">Dashboard</Link>
             </button>
             <button className="cursor-pointer border px-5 py-2 text-blue-600 text-sm font-semibold rounded-lg hover:bg-blue-100 transition">
             <Link href="/login">Login</Link>
