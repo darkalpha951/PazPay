@@ -64,7 +64,7 @@ export default function Home() {
                 <Link href="/signup">Sign up for free</Link>
                 </button>
                 <button className="bg-red-500 px-6 py-2 rounded-lg text-white hover:bg-red-600 transition cursor-pointer">
-                <Link href="/">For School →</Link>
+                <Link href="/crowdfunding">Apply for CrowdFunding →</Link>
                 </button>
             </div>
             </div>
@@ -165,7 +165,7 @@ export default function Home() {
                         What are the available installment plans?
                     </summary>
                     <p className="mt-2 text-gray-600">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus dolor eum animi, earum ab consequatur dolores temporibus corrupti deserunt, rerum similique quod esse aliquam nisi soluta quos ipsum totam voluptas atque! Consequatur cumque error excepturi illo suscipit perferendis maiores itaque voluptatum nobis, officiis, modi tenetur fugit, et maxime vitae tempore.
+                    We offer flexible installment plans tailored to students' financial needs. Typically, students can repay their education fees in 6, 12, 18, or 24-month EMIs, depending on their eligibility and the college's acceptance of the payment structure. Interest rates vary based on the plan chosen, with 5% annual interest on EMIs. Students may also have the option of zero-interest EMI if they qualify for specific financial aid programs.
                     </p>
                     </details>
 
@@ -174,16 +174,30 @@ export default function Home() {
                         What happens if I miss an installment?
                     </summary>
                     <p className="mt-2 text-gray-600">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed, reiciendis in! Ut amet, quam magni sed facilis quo, ad quia maiores assumenda nobis expedita, voluptate laboriosam aliquam! Corporis, eius alias!
+                    If you miss an installment, you will be given a grace period of 7 days to make the payment without penalty. After this period, a late fee of 2% of the EMI amount will be charged. Repeated missed payments may lead to: 
+                    <br />
+                    <br />
+                    <p>1. Increased interest rates on future payments.</p>
+                    <p>2. Impact on credit history, affecting your ability to secure future loans.</p>
+                    <p>3. If multiple payments are missed, the funding contract may be revoked, and legal action could be taken depending on the terms of your agreement.</p>
+                    <br />
+                    <p>However, if you are facing financial difficulties, we encourage you to contact our support team as soon as possible. We offer temporary relief options like deferred payments or crowdfunding assistance.</p>
                     </p>
                     </details>
 
                     <details className="p-4 border rounded-lg">
                     <summary className="font-semibold cursor-pointer">
-                        How do I apply for crowdfunding assistance?
+                        How do I apply for funding assistance?
                     </summary>
                     <p className="mt-2 text-gray-600">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, aliquid molestias! Ad odio quod magnam inventore temporibus itaque velit aspernatur nostrum totam atque repellat fuga voluptatibus eveniet unde, facere delectus perferendis quo suscipit. Inventore, assumenda.
+                    If you are struggling to make your EMI payments, you can apply for funding assistance through our platform. Here’s how:
+                    <br />
+                    <br />
+                    <p>1. Submit an Application – Provide details about your financial situation, the amount needed, and supporting documents.</p>
+                    <p>2. Verification Process – Our team will assess your case to ensure legitimacy.</p>
+                    <p>3. Approval & Disbursement – Once approved, the required funds will be allocated to cover your EMI payments, reducing your financial burden.</p>
+                    <br />
+                    <p>To maximize your chances, ensure your application is transparent and well-documented. Let me know if you need further refinements!</p>
                     </p>
                     </details>
                 </div>

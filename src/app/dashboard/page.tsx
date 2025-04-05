@@ -130,7 +130,7 @@ export default function Dashboard() {
             </div>
             <div className="flex items-center space-x-2 text-blue-600 font-semibold">
               <FaHistory />
-              <span className="cursor-pointer">Payment History</span>
+              <span className="cursor-pointer"> <Link href={"/dashboard/payment-history"}>Payment History</Link></span>
             </div>
             <div className="flex items-center space-x-2 text-blue-600 font-semibold">
               <FaCalendarCheck />
@@ -141,7 +141,7 @@ export default function Dashboard() {
           {/* Funding & Support Buttons */}
           <div className="mt-6 grid grid-cols-1 md:grid-cols-3 gap-4">
             <button className="bg-green-600 text-white py-3 rounded-lg font-semibold cursor-pointer">SCHOLARSHIP</button>
-            <button className="bg-blue-600 text-white py-3 rounded-lg font-semibold cursor-pointer">APPLY FOR FUNDING</button>
+            <button className="bg-blue-600 text-white py-3 rounded-lg font-semibold cursor-pointer"> <Link href={"/dashboard/funding"}>APPLY FOR FUNDING</Link></button>
             <button className="bg-red-600 text-white py-3 rounded-lg font-semibold cursor-pointer">AI CHAT SUPPORT</button>
           </div>
         </div>
