@@ -16,8 +16,8 @@ export default function Home() {
         <header className="flex justify-between items-center px-10 py-5 bg-white shadow-md">
             {/* Logo */}
             <h1 className="text-3xl font-extrabold">
-                <span className="text-red-500">Smart</span>
-                <span className="text-blue-600">EMI</span>
+                <span className="text-red-500">Paz</span>
+                <span className="text-blue-600">Pay</span>
             </h1>
 
             {/* Navigation */}
@@ -82,7 +82,7 @@ export default function Home() {
             <section className="flex justify-center mt-10">
             <div className="bg-gradient-to-r from-blue-600 to-blue-800 text-white text-lg font-semibold py-6 px-10 rounded-2xl shadow-lg flex justify-between items-center w-[90%] max-w-4xl">
                 <span>Access your AI university counselor now!</span>
-                <button className="bg-yellow-400 text-black px-6 py-2 font-bold rounded-lg hover:bg-yellow-500 transition">
+                <button className="bg-yellow-400 text-black px-6 py-2 font-bold rounded-lg hover:bg-yellow-500 transition cursor-pointer">
                 <Link href="/signup"> Sign Up </Link>
                 </button>
             </div>
@@ -92,7 +92,7 @@ export default function Home() {
             <section className="text-center mt-30 mb-20" id="about">
                 <h2 className="text-2xl text-black font-bold">About Us</h2>
                 <p className="mt-4 text-gray-700 max-w-2xl mx-auto leading-relaxed">
-                    At <span className="font-bold">Smart<span className="text-blue-600">EMI</span></span>, we believe that financial constraints should never be a barrier to education.
+                    At <span className="font-bold">Paz<span className="text-blue-600">Pay</span></span>, we believe that financial constraints should never be a barrier to education.
                     We provide students with flexible fee payment options, making higher education more flexible and stress-free.
                 </p>
             </section>
@@ -228,8 +228,8 @@ export default function Home() {
                     {/* Column 3 - Contact */}
                     <div>
                     <h3 className="text-xl font-semibold mb-4">Contact</h3>
-                    <p className="text-gray-400">Email: support@yourplatform.com</p>
-                    <p className="text-gray-400">Phone: +91 123 456 7890</p>
+                    <p className="text-gray-400">Email: garvitsingh006@gmail.com</p>
+                    <p className="text-gray-400">Phone: +91 9876478293</p>
                     <div className="flex space-x-4 mt-4">
                         <a href="#" className="text-gray-400 hover:text-white">
                         <i className="fab fa-facebook text-xl"></i>
