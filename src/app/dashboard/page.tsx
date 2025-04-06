@@ -22,7 +22,9 @@ export default function Dashboard() {
     const onLogout = async () => {
         try {
             const response = axios.get("/api/users/logout")
-            router.push("/login")
+            setTimeout(() => {
+                router.push("/login")
+            }, 500)
         } catch (error:any) {
             console.log("Logout failed!", error.message)
         }

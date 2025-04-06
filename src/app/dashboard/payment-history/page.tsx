@@ -29,8 +29,8 @@ const PaymentHistory: React.FC = () => {
             <header className="flex justify-between items-center px-10 py-5 bg-white shadow-md fixed top-0 left-0 w-full">
                     {/* Logo */}
                     <h1 className="text-3xl font-extrabold">
-                        <span className="text-red-500">Smart</span>
-                        <span className="text-blue-600">EMI</span>
+                        <span className="text-red-500">Paz</span>
+                        <span className="text-blue-600">Pay</span>
                     </h1>
 
                     {/* Navigation */}
