@@ -24,6 +24,7 @@ export default function Dashboard() {
             const response = axios.get("/api/users/logout")
             setTimeout(() => {
                 router.push("/login")
+                router.refresh()
             }, 500)
         } catch (error:any) {
             console.log("Logout failed!", error.message)

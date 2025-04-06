@@ -25,7 +25,10 @@ export default function LoginPage() {
             setLoading(true);
             const response = await axios.post("/api/users/login", user);
             console.log("Logged In User: ", response.data)
-            router.push("/dashboard");
+            setTimeout(() => {
+                router.push("/dashboard")
+                router.refresh()
+            }, 500)
         } catch (error:any) {
             console.log("Login failed!", error.message)
         } finally {
