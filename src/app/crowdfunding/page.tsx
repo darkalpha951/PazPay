@@ -27,7 +27,7 @@ const CrowdfundingPage: React.FC = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-100 to-gray-300 flex flex-col items-center p-6">
       <div className="max-w-3xl w-full bg-white rounded-2xl shadow-xl p-10 text-center">
-        <h1 className="text-4xl font-extrabold text-gray-800">Support SmartEMI: Make Education Affordable</h1>
+        <h1 className="text-4xl font-extrabold text-gray-800">Support PazPay: Make Education Affordable</h1>
         <p className="mt-4 text-lg text-gray-600 leading-relaxed">
           Help us revolutionize education financing! Your contribution enables us to prepay colleges,
           allowing students to pay fees in affordable EMIs.
@@ -35,13 +35,13 @@ const CrowdfundingPage: React.FC = () => {
         
         <div className="mt-8 flex flex-col space-y-4">
           <Button 
-            href="https://www.gofundme.com/f/smartemi-education" 
+            href="https://www.gofundme.com/f/pazpay-education" 
             className="bg-blue-600 text-white hover:bg-blue-700 w-full py-4 rounded-xl"
           >
             Donate on GoFundMe
           </Button>
           <Button 
-            href="https://www.ketto.org/fundraiser/smartemi-education"
+            href="https://www.ketto.org/fundraiser/pazpay-education"
             className="bg-green-600 text-white hover:bg-green-700 w-full py-4 rounded-xl"
           >
             Donate on Ketto
